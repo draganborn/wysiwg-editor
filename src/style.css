@@ -1,0 +1,87 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+h1 {
+  color: #ebdbb2;
+  text-align: center;
+}
+
+.editor-container {
+  background: #282828;
+  color: #ebdbb2;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.editor {
+  min-height: 200px;
+  border: 1px solid #a89984;
+  padding: 10px;
+  outline: none;
+  overflow-y: auto;
+  max-height: 400px;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.editor:focus {
+  border-color: #fabd2f;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.toolbar button {
+  background: #3c3836;
+  color: #ebdbb2;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+  border-radius: 3px;
+}
+.toolbar button:hover {
+  background: #504945;
+  transform: scale(1.05);
+}
+.toolbar button:active {
+  background: #7c6f64;
+  transform: scale(0.95);
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.toolbar button {
+  background: #3c3836;
+  color: #ebdbb2;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+  border-radius: 3px;
+}
+.toolbar button:hover {
+  background: #504945;
+  transform: scale(1.05);
+}
+.toolbar button:active {
+  background: #7c6f64;
+  transform: scale(0.95);
+}
